@@ -5,7 +5,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.aurigaspa.simulators.api.bean.Response;
+import com.aurigaspa.simulators.rest.services.bean.Response;
 import com.aurigaspa.simulators.rest.services.bean.Request;
 
 @Path("/api/v1")

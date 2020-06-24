@@ -2,8 +2,8 @@ package com.aurigaspa.simulators.rest.services.bean;
 
 public class Data {
 
-	public double importoCommissione;
-	public double massimoVersabile;
+	private double importoCommissione;
+	private double massimoVersabile;
 
 	public double getImportoCommissione() {
 		return importoCommissione;
