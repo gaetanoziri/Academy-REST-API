@@ -5,7 +5,7 @@
 	id="WebApp_ID" version="2.5">
 	<display-name>JavaWebServiceExample</display-name>
 	<servlet>
-		<servlet-name>rest-test</servlet-name>
+		<servlet-name>cashin-services</servlet-name>
 		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
 		<init-param>
 			<param-name>com.sun.jersey.config.property.packages</param-name>
@@ -18,7 +18,7 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>rest-test</servlet-name>
-		<url-pattern>/rest/*</url-pattern>
+		<servlet-name>cashin-services</servlet-name>
+		<url-pattern>/api/v1/*</url-pattern>
 	</servlet-mapping>
 </web-app>
